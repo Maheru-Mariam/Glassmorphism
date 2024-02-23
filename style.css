@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 100vh;
+   width: 100%;
+   background-image: url(images/Seraphine_34.jpg);
+   background-size: cover;
+}
+
+.form{
+    position: relative;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(251, 255, 132);
+    border-radius: 30px;
+    height: 430px;
+    width: 400px;
+    
+}
+
+h2{
+    color: rgba(210, 255, 9, 0.807);
+    text-align: center;
+    font-size: 2em;
+    font-weight: 900;
+    margin: 30px;
+    font-family: sans-serif;
+}
+
+.input_box{
+    background: transparent;
+    position: relative;
+    margin: 30px 0px;
+    width: 300px;
+    border-bottom: 2px solid  rgb(209, 225, 108);
+}
+
+.input_box label{
+    position: absolute;
+   /*  top: 50%; */
+    left: 5px;
+    /* transform: translateY(-50%); */
+    color: rgb(242, 255, 159);
+    font-weight: bold;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0 15px 0 5px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+input:focus~label,
+input:valid~label{
+    top: -20px;
+}
+
+
+.input_box input{
+    background: transparent;
+    width: 100%;
+    height: 60px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    color: rgb(190, 10, 235);
+}
+
+.forget_password{
+   margin: 15px 50px;
+   color: rgb(221, 255, 51);
+   font-size: 1.2em;
+   display: flex;
+   justify-content: center;
+}
+
+.forget_password a{
+    color: rgb(221, 255, 51);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.forget_password a:hover{
+    color: rgb(255, 191, 223);
+    border-bottom: 2px solid plum;
+    padding-bottom: 2px;
+}
+
+.btn{
+    width: 100%;
+    height: 30px;
+    color: rgba(2, 0, 1, 0.807);
+    background-color: rgb(251, 255, 132);
+    font-size: large;
+    font-weight: 800;
+    border-radius: 30px;
+    text-align: center;
+    border: 2px solid rgb(23, 27, 2);
+    transition: 1s;
+}
+
+.btn:hover{
+    color: rgb(247, 255, 94);
+    font-weight: 700;
+    background-color: rgb(255, 70, 8);
+}
+
+.remeber_me{
+    margin: 15px 50px;
+    color: rgb(221, 255, 51);
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+}
+
+.remeber_me a{
+    color: rgb(221, 255, 51);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.remeber_me a:hover{
+    color:  rgb(255, 191, 223);
+    border-bottom: 2px solid plum;
+    padding-bottom: 2px;
+
+}
